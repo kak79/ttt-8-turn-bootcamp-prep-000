@@ -39,7 +39,7 @@
     index = input_to_index(input)
     
       if valid_move?(board,index) == true
-        move(board, 4, "X")
+        move(board, index, "X")
         display_board(board)
         puts "Please enter 1-9:"
       else valid_move?(board,index) == false
