@@ -38,7 +38,7 @@
     input = gets.chomp
     index = input_to_index(input)
     
-      #if valid_move? == true
+      #if valid_move?() == true
         
         #display_board(board)
         #puts "Please enter 1-9:"
