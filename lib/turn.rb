@@ -42,7 +42,7 @@
         move(board, index, "X")
         display_board(board)
         puts "Please enter 1-9:"
-      else valid_move?(board,index) == false
+      else 
         puts "Please enter 1-9:"
     end
   end
